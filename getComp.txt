@@ -1,0 +1,48 @@
+ffd8 -> SOI start of image marker
+ffe0 -> APP0 Application Marker
+0010 -> Length of Thumnail 
+4a46 4946 00 -> JFIF 
+01 01 -> Revision
+00 -> Unites used for resolution
+0001 -> Horizontal resolution
+0001 -> Vertical resolution
+00 -> Horizontal pixel count
+00 -> Vertical pixel count
+
+ffdb -> Quantazation Matrix (QM)
+0043 0003 0202 0302 0203
+0302 0303 0303 0304 0705 0404 0404 0906
+0705 070a 090b 0b0a 090a 0a0c 0d11 0e0c
+0c10 0c0a 0a0e 140f 1011 1213 1313 0b0e
+1416 1412 1611 1213 12
+
+ff c0 -> Frame Header
+
+00 0b08 0016
+0016 0101 1100 
+
+ffc4 -> Huffman Tables
+
+001f 0000 0105 0101
+0101 0101 0000 0000 0000 0000 0102 0304
+0506 0708 090a 0bff c400 b510 0002 0103
+0302 0403 0505 0404 0000 017d 0102 0300
+0411 0512 2131 4106 1351 6107 2271 1432
+8191 a108 2342 b1c1 1552 d1f0 2433 6272
+8209 0a16 1718 191a 2526 2728 292a 3435
+3637 3839 3a43 4445 4647 4849 4a53 5455
+5657 5859 5a63 6465 6667 6869 6a73 7475
+7677 7879 7a83 8485 8687 8889 8a92 9394
+9596 9798 999a a2a3 a4a5 a6a7 a8a9 aab2
+b3b4 b5b6 b7b8 b9ba c2c3 c4c5 c6c7 c8c9
+cad2 d3d4 d5d6 d7d8 d9da e1e2 e3e4 e5e6
+e7e8 e9ea f1f2 f3f4 f5f6 f7f8 f9fa 
+
+ffda -> Start Scan Header
+
+0008 0101 0000 3f00 fd37 56e9 9a4e 3736
+475a 90a0 eb4c 1d05 0c46 e19e f522 90c3
+ad54 8e72 4104 74a6 3cd9 553e f52c 1260
+11cf 5a
+
+ffd9
